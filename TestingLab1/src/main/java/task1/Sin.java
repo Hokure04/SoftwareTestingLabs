@@ -1,4 +1,4 @@
-package function;
+package task1;
 
 public class Sin {
 

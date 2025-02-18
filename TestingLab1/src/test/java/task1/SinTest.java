@@ -1,4 +1,4 @@
-package function;
+package task1;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
