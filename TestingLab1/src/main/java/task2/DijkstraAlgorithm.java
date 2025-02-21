@@ -14,7 +14,7 @@ public class DijkstraAlgorithm {
 
     public static Map<Integer, Integer> dijkstraGraph(Map<Integer, List<Edge>> graph, int start){
         Map<Integer, Integer> distances = new HashMap<>();
-        PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
+        PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(a -> a[1])); // приоритетная очередь в которой вершины с наименьшим значением побрабатываются в первую очередь
         Set<Integer> visited = new HashSet<>();
         for(int node : graph.keySet()){
             distances.put(node, Integer.MAX_VALUE);
@@ -30,7 +30,7 @@ public class DijkstraAlgorithm {
             }
             visited.add(node);
 
-            for(Edge edge : graph.getOrDefault(node, new ArrayList<>())){
+            for(Edge edge : graph.getOrDefault(node, new ArrayList<>())){ // получаем все соседние вершины, если у вершины нет рёбер возращаем пустой лист
                 if(!visited.contains(edge.target)){
                     int newDistance = currentDistance + edge.weight;
                     if(newDistance < distances.get(edge.target)){
