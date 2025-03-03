@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd41ecae-88b3-44e0-b36b-afa9aad20946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/LogFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/LogFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logarithms/Ln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logarithms/Ln.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logarithms/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logarithms/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/function/LogFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/function/LogFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logarithms/LnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logarithms/LnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logarithms/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logarithms/LogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,54 +37,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CosTest.executor": "Coverage",
-    "JUnit.CosTest.testNegativeValues.executor": "Run",
-    "JUnit.CosTest.testPositiveValues.executor": "Run",
-    "JUnit.CosTest.testZeroValue.executor": "Run",
-    "JUnit.CosecTest.executor": "Coverage",
-    "JUnit.CosecTest.testInvalidValues.executor": "Run",
-    "JUnit.CosecTest.testNegativePi.executor": "Run",
-    "JUnit.CosecTest.testPiValues.executor": "Run",
-    "JUnit.CotTest.executor": "Coverage",
-    "JUnit.CotTest.testInvalidValues.executor": "Run",
-    "JUnit.CotTest.testNegativePi.executor": "Run",
-    "JUnit.CotTest.testPiValues.executor": "Run",
-    "JUnit.LnTest.executor": "Coverage",
-    "JUnit.LnTest.testInvalidValues.executor": "Run",
-    "JUnit.LnTest.testNaturalLogarithmOfOne.executor": "Run",
-    "JUnit.LnTest.testValidValues.executor": "Run",
-    "JUnit.LogFunctionTest.executor": "Run",
-    "JUnit.LogFunctionTest.testInvalidLogFunction.executor": "Run",
-    "JUnit.LogFunctionTest.testLargeValue.executor": "Run",
-    "JUnit.LogFunctionTest.testValidLogFunction.executor": "Run",
-    "JUnit.LogTest.executor": "Coverage",
-    "JUnit.LogTest.testBases.executor": "Run",
-    "JUnit.LogTest.testInvalidValues.executor": "Run",
-    "JUnit.LogTest.testLog10.executor": "Run",
-    "JUnit.LogTest.testLog2.executor": "Run",
-    "JUnit.LogTest.testLog3.executor": "Run",
-    "JUnit.TanTest.executor": "Coverage",
-    "JUnit.TanTest.testInvalidValues.executor": "Run",
-    "JUnit.TanTest.testNegativeValues.executor": "Run",
-    "JUnit.TanTest.testPiValues.executor": "Run",
-    "JUnit.TrigonometryFunctionTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CosTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CosTest.testNegativeValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CosTest.testPositiveValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CosTest.testZeroValue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CosecTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CosecTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CosecTest.testNegativePi.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CosecTest.testPiValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CotTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CotTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CotTest.testNegativePi.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CotTest.testPiValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LnTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LnTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LnTest.testNaturalLogarithmOfOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LnTest.testValidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogFunctionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogFunctionTest.testInvalidLogFunction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogFunctionTest.testLargeValue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogFunctionTest.testPowerLogarithmMethodOn3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogFunctionTest.testValidLogFunction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.testBases.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.testLog10.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.testLog2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogTest.testLog3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TanTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.TanTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TanTest.testNegativeValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TanTest.testPiValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrigonometryFunctionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrigonometryFunctionTest.testValidTrigonometryFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,7 +97,38 @@
       <recent name="logarithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrigonometryFunctionTest.testValidTrigonometryFunction">
+  <component name="RunManager" selected="JUnit.LogFunctionTest">
+    <configuration name="LnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logarithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logarithms" />
+      <option name="MAIN_CLASS_NAME" value="logarithms.LnTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LnTest.testNaturalLogarithmOfOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logarithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logarithms" />
+      <option name="MAIN_CLASS_NAME" value="logarithms.LnTest" />
+      <option name="METHOD_NAME" value="testNaturalLogarithmOfOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
@@ -106,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogFunctionTest.testLargeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogFunctionTest.testPowerLogarithmMethodOn3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
         <pattern>
@@ -116,66 +154,34 @@
       </extension>
       <option name="PACKAGE_NAME" value="function" />
       <option name="MAIN_CLASS_NAME" value="function.LogFunctionTest" />
-      <option name="METHOD_NAME" value="testLargeValue" />
+      <option name="METHOD_NAME" value="testPowerLogarithmMethodOn3(double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogFunctionTest.testValidLogFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="function.*" />
+          <option name="PATTERN" value="logarithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="function" />
-      <option name="MAIN_CLASS_NAME" value="function.LogFunctionTest" />
-      <option name="METHOD_NAME" value="testValidLogFunction(double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrigonometryFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="function" />
-      <option name="MAIN_CLASS_NAME" value="function.TrigonometryFunctionTest" />
+      <option name="PACKAGE_NAME" value="logarithms" />
+      <option name="MAIN_CLASS_NAME" value="logarithms.LogTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrigonometryFunctionTest.testValidTrigonometryFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="function" />
-      <option name="MAIN_CLASS_NAME" value="function.TrigonometryFunctionTest" />
-      <option name="METHOD_NAME" value="testValidTrigonometryFunction(double)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrigonometryFunctionTest.testValidTrigonometryFunction" />
-        <item itemvalue="JUnit.TrigonometryFunctionTest" />
-        <item itemvalue="JUnit.LogFunctionTest.testLargeValue" />
         <item itemvalue="JUnit.LogFunctionTest" />
-        <item itemvalue="JUnit.LogFunctionTest.testValidLogFunction" />
+        <item itemvalue="JUnit.LogTest" />
+        <item itemvalue="JUnit.LnTest" />
+        <item itemvalue="JUnit.LogFunctionTest.testPowerLogarithmMethodOn3" />
+        <item itemvalue="JUnit.LnTest.testNaturalLogarithmOfOne" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +203,11 @@
       <updated>1740837285388</updated>
       <workItem from="1740837286473" duration="11641000" />
       <workItem from="1740849157812" duration="2752000" />
-      <workItem from="1740909636507" duration="16642000" />
+      <workItem from="1740909636507" duration="17068000" />
+      <workItem from="1740961274081" duration="608000" />
+      <workItem from="1740996202963" duration="6796000" />
+      <workItem from="1741008471324" duration="2078000" />
+      <workItem from="1741024218569" duration="2230000" />
     </task>
     <servers />
   </component>
@@ -205,8 +215,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestingLab2$LogTest.ic" NAME="LogTest Coverage Results" MODIFIED="1740918089006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/TestingLab2$LogTest.ic" NAME="LogTest Coverage Results" MODIFIED="1741000229693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>logarithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingLab2$LogFunctionTest_testPowerLogarithmMethodOn3.ic" NAME="LogFunctionTest.testPowerLogarithmMethodOn3 Coverage Results" MODIFIED="1741000420138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>function.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestingLab2$CosecTest.ic" NAME="CosecTest Coverage Results" MODIFIED="1740919763323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>trigonometry.*</FILTER>
@@ -220,7 +233,7 @@
     <SUITE FILE_PATH="coverage/TestingLab2$TanTest.ic" NAME="TanTest Coverage Results" MODIFIED="1740913725736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>trigonometry.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TestingLab2$LnTest.ic" NAME="LnTest Coverage Results" MODIFIED="1740917543402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/TestingLab2$LnTest.ic" NAME="LnTest Coverage Results" MODIFIED="1741000214122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>logarithms.*</FILTER>
     </SUITE>
   </component>
