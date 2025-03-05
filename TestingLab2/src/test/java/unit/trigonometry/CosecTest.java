@@ -1,5 +1,7 @@
 package unit.trigonometry;
 
+import function.CsvExporter;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import trigonometry.Cosec;
@@ -12,6 +14,19 @@ class CosecTest {
     double accuracy = 1e-10;
     private Sin sin = new Sin();
     private Cosec cosec = new Cosec(sin);
+    private CsvExporter csvExporter = new CsvExporter(cosec::calculateCosec);
+
+    @Test
+    public void testAndSaveCosecResults(){
+        for (double x = 0.1; x <= 2*Math.PI; x += 0.1) {
+            double expected = 1/Math.sin(x);
+            double actual = cosec.calculateCosec(x, accuracy);
+
+            assertEquals(expected, actual, eps, "Ошибка при вычислении cos(" + x + ")");
+
+        }
+        csvExporter.testAndExportCsv(0.1,2*Math.PI,0.1,"cosec_results.csv", eps);
+    }
 
     @ParameterizedTest
     @ValueSource(doubles = {Math.PI/6, Math.PI/4, Math.PI/3, Math.PI/2})

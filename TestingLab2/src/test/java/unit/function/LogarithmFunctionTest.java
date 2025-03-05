@@ -1,5 +1,6 @@
 package unit.function;
 
+import function.CsvExporter;
 import function.LogarithmFunction;
 import logarithms.Ln;
 import logarithms.Log;
@@ -14,6 +15,12 @@ class LogarithmFunctionTest {
     private final LogarithmFunction logFunction = new LogarithmFunction(ln , log2, log10);
     private final double accuracy = 1e-10;
     private final double eps = 1e-5;
+    private final CsvExporter csvExporter = new CsvExporter(logFunction::calculateLogFunc);
+
+    @Test
+    public void testAndSaveLogFunctionResults(){
+        csvExporter.testAndExportCsv(0.1, 10.0, 0.1, "log_func_result.csv", eps);
+    }
 
     @Test
     public void testValues(){

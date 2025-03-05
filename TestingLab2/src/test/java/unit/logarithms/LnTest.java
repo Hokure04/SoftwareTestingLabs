@@ -1,5 +1,6 @@
 package unit.logarithms;
 
+import function.CsvExporter;
 import logarithms.Ln;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,6 +12,20 @@ class LnTest {
     double eps = 1e-8;
     double accuracy = 1e-10;
     private Ln ln = new Ln();
+    private CsvExporter csvExporter = new CsvExporter(ln::calculateLn);
+
+    @Test
+    public void testAndSaveLnResults() {
+        for (double x = 0.1; x <= 10.0; x += 0.1) {
+            double expected = Math.log(x);
+            double actual = ln.calculateLn(x, accuracy);
+
+            assertEquals(expected, actual, eps, "Ошибка при вычислении ln(" + x + ")");
+
+        }
+        csvExporter.testAndExportCsv(0.1, 10.0, 0.1, "ln_result.csv", eps);
+    }
+
 
     @Test
     public void testNaturalLogarithmOfOne(){

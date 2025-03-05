@@ -1,4 +1,4 @@
-package integration;
+package integration.trigonometry;
 
 import org.junit.jupiter.api.Test;
 import trigonometry.Cos;

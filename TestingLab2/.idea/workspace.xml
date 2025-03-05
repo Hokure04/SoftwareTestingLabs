@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="cd41ecae-88b3-44e0-b36b-afa9aad20946" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid13640.jfr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid13640.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/integration/CosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/trigonometry/CosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/integration/CotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/trigonometry/CotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/integration/TanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/trigonometry/TanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/function/LogarithmFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/function/LogarithmFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/logarithms/LnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/logarithms/LnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/logarithms/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/logarithms/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosecTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/TanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/TanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,60 +41,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LogarithmFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrigonometricFunction.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CosTest.testNegativeValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosTest.testPositiveValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosTest.testZeroValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosecTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CosecTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosecTest.testNegativePi.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CosecTest.testPiValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CotTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CotTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CotTest.testNegativePi.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CotTest.testPiValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LnTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.LnTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LnTest.testNaturalLogarithmOfOne.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LnTest.testValidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogFunctionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogFunctionTest.testInvalidLogFunction.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogFunctionTest.testLargeValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogFunctionTest.testPowerLogarithmMethodOn3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogFunctionTest.testValidLogFunction.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.LogTest.testBases.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.testLog10.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.testLog2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogTest.testLog3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogarithmFunctionTest.testValues.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.TanTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.TanTest.testInvalidValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TanTest.testNegativeValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TanTest.testPiValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TrigonometricFunctionTest.testValues.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TrigonometryFunctionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TrigonometryFunctionTest.testValidTrigonometryFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LogarithmFunction.executor": "Run",
+    "Application.TrigonometricFunction.executor": "Run",
+    "JUnit.CosTest.executor": "Coverage",
+    "JUnit.CosTest.testAndSaveCosResults.executor": "Run",
+    "JUnit.CosTest.testCalculateCos.executor": "Run",
+    "JUnit.CosTest.testNegativeValues.executor": "Run",
+    "JUnit.CosTest.testPositiveValues.executor": "Run",
+    "JUnit.CosTest.testZeroValue.executor": "Run",
+    "JUnit.CosecTest.executor": "Coverage",
+    "JUnit.CosecTest.testAndSaveCosecResults.executor": "Run",
+    "JUnit.CosecTest.testInvalidValues.executor": "Run",
+    "JUnit.CosecTest.testNegativePi.executor": "Run",
+    "JUnit.CosecTest.testPiValues.executor": "Run",
+    "JUnit.CotTest (1).executor": "Run",
+    "JUnit.CotTest.executor": "Coverage",
+    "JUnit.CotTest.testAndSaveCotResults.executor": "Run",
+    "JUnit.CotTest.testCalculateCot.executor": "Run",
+    "JUnit.CotTest.testCalculateCot_NaN.executor": "Run",
+    "JUnit.CotTest.testInvalidValues.executor": "Run",
+    "JUnit.CotTest.testNegativePi.executor": "Run",
+    "JUnit.CotTest.testPiValues.executor": "Run",
+    "JUnit.LnTest.executor": "Coverage",
+    "JUnit.LnTest.testAndSaveLnResults.executor": "Run",
+    "JUnit.LnTest.testInvalidValues.executor": "Run",
+    "JUnit.LnTest.testNaturalLogarithmOfOne.executor": "Run",
+    "JUnit.LnTest.testValidValues.executor": "Run",
+    "JUnit.LogFunctionTest.executor": "Run",
+    "JUnit.LogFunctionTest.testInvalidLogFunction.executor": "Run",
+    "JUnit.LogFunctionTest.testLargeValue.executor": "Run",
+    "JUnit.LogFunctionTest.testPowerLogarithmMethodOn3.executor": "Run",
+    "JUnit.LogFunctionTest.testValidLogFunction.executor": "Run",
+    "JUnit.LogTest.executor": "Run",
+    "JUnit.LogTest.testAndSaveLogResults.executor": "Run",
+    "JUnit.LogTest.testBases.executor": "Run",
+    "JUnit.LogTest.testInvalidValues.executor": "Run",
+    "JUnit.LogTest.testLog10.executor": "Run",
+    "JUnit.LogTest.testLog2.executor": "Run",
+    "JUnit.LogTest.testLog3.executor": "Run",
+    "JUnit.LogarithmFunctionTest.testAndSaveLogFunctionResults.executor": "Run",
+    "JUnit.LogarithmFunctionTest.testValues.executor": "Debug",
+    "JUnit.TanTest.executor": "Run",
+    "JUnit.TanTest.testAndSaveCosResults.executor": "Run",
+    "JUnit.TanTest.testAndSaveTanResults.executor": "Run",
+    "JUnit.TanTest.testCalculateTan.executor": "Run",
+    "JUnit.TanTest.testCalculate_NaN.executor": "Run",
+    "JUnit.TanTest.testInvalidValues.executor": "Run",
+    "JUnit.TanTest.testNegativeValues.executor": "Run",
+    "JUnit.TanTest.testPiValues.executor": "Run",
+    "JUnit.TrigonometricFunctionTest.testValues.executor": "Run",
+    "JUnit.TrigonometryFunctionTest.executor": "Run",
+    "JUnit.TrigonometryFunctionTest.testValidTrigonometryFunction.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -98,79 +119,82 @@
       <recent name="logarithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrigonometricFunctionTest.testValues">
-    <configuration name="CosecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrigonometricFunctionTest.testAndSaveTrigFunc">
+    <configuration name="CosecTest.testAndSaveCosecResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trigonometry.*" />
+          <option name="PATTERN" value="unit.trigonometry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="trigonometry" />
-      <option name="MAIN_CLASS_NAME" value="trigonometry.CosecTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trigonometry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="trigonometry" />
-      <option name="MAIN_CLASS_NAME" value="trigonometry.CotTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogarithmFunctionTest.testValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="function" />
-      <option name="MAIN_CLASS_NAME" value="function.LogarithmFunctionTest" />
-      <option name="METHOD_NAME" value="testValues" />
+      <option name="PACKAGE_NAME" value="unit.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="unit.trigonometry.CosecTest" />
+      <option name="METHOD_NAME" value="testAndSaveCosecResults" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CotTest.testAndSaveCotResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trigonometry.*" />
+          <option name="PATTERN" value="unit.trigonometry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="trigonometry" />
-      <option name="MAIN_CLASS_NAME" value="trigonometry.TanTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="unit.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="unit.trigonometry.CotTest" />
+      <option name="METHOD_NAME" value="testAndSaveCotResults" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrigonometricFunctionTest.testValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogarithmFunctionTest.testAndSaveLogFunctionResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="function.*" />
+          <option name="PATTERN" value="unit.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="function" />
-      <option name="MAIN_CLASS_NAME" value="function.TrigonometricFunctionTest" />
-      <option name="METHOD_NAME" value="testValues" />
+      <option name="PACKAGE_NAME" value="unit.function" />
+      <option name="MAIN_CLASS_NAME" value="unit.function.LogarithmFunctionTest" />
+      <option name="METHOD_NAME" value="testAndSaveLogFunctionResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TanTest.testAndSaveTanResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.trigonometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="unit.trigonometry.TanTest" />
+      <option name="METHOD_NAME" value="testAndSaveTanResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometricFunctionTest.testAndSaveTrigFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.function" />
+      <option name="MAIN_CLASS_NAME" value="unit.function.TrigonometricFunctionTest" />
+      <option name="METHOD_NAME" value="testAndSaveTrigFunc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrigonometricFunctionTest.testValues" />
-        <item itemvalue="JUnit.LogarithmFunctionTest.testValues" />
-        <item itemvalue="JUnit.CosecTest" />
-        <item itemvalue="JUnit.CotTest" />
-        <item itemvalue="JUnit.TanTest" />
+        <item itemvalue="JUnit.TrigonometricFunctionTest.testAndSaveTrigFunc" />
+        <item itemvalue="JUnit.LogarithmFunctionTest.testAndSaveLogFunctionResults" />
+        <item itemvalue="JUnit.CosecTest.testAndSaveCosecResults" />
+        <item itemvalue="JUnit.CotTest.testAndSaveCotResults" />
+        <item itemvalue="JUnit.TanTest.testAndSaveTanResults" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +233,7 @@
       <workItem from="1740996202963" duration="6796000" />
       <workItem from="1741008471324" duration="2078000" />
       <workItem from="1741024218569" duration="31169000" />
-      <workItem from="1741115809224" duration="1151000" />
+      <workItem from="1741115809224" duration="12983000" />
     </task>
     <servers />
   </component>

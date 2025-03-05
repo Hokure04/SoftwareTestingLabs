@@ -1,11 +1,11 @@
 package unit.function;
 
+import function.CsvExporter;
 import function.TrigonometricFunction;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import trigonometry.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TrigonometricFunctionTest {
     private final Sin sin = new Sin();
@@ -16,12 +16,13 @@ class TrigonometricFunctionTest {
     private final TrigonometricFunction trigonometricFunc = new TrigonometricFunction(cos, tan, cot, cosec);
     private final double eps = 1e-3;
     private final double accuracy = 1e-8;
+    private final CsvExporter csvExporter = new CsvExporter(trigonometricFunc::calculateTrgFunc);
 
+    @Test
+    public void testAndSaveTrigFunc(){
+        csvExporter.testAndExportCsv(-10.0, -0.1, 0.1, "trig_func_result.csv", eps);
+    }
 
-    /*@BeforeAll
-    public static void initializeTrigonometricFunctions(){
-        sin = new Sin();
-    }*/
 
     @Test
     public void testValues(){
