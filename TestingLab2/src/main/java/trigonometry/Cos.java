@@ -2,7 +2,7 @@ package trigonometry;
 
 
 public class Cos {
-    private Sin sin;
+    private final Sin sin;
 
     public Cos(Sin sin){
         this.sin = sin;

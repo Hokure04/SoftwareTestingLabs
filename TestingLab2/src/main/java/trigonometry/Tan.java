@@ -1,8 +1,8 @@
 package trigonometry;
 
 public class Tan{
-    private Sin sin;
-    private Cos cos;
+    private final Sin sin;
+    private final Cos cos;
 
     public Tan(Sin sin, Cos cos){
         this.sin = sin;

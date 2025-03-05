@@ -3,7 +3,7 @@ package logarithms;
 
 public class Log {
     private Ln ln = new Ln();
-    private int base;
+    private final int base;
 
     public Log(Ln ln, int base){
         this.ln = ln;

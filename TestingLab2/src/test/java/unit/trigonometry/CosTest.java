@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class CosTest {
     double accuracy = 1e-10;
     double eps = 1e-8;
-    private Sin sin = new Sin();
-    private Cos cos = new Cos(sin);
-    private CsvExporter csvExporter = new CsvExporter(cos::calculateCos);
+    private final Sin sin = new Sin();
+    private final Cos cos = new Cos(sin);
+    private final CsvExporter csvExporter = new CsvExporter(cos::calculateCos);
 
     @Test
     public void testAndSaveCosResults(){
@@ -25,7 +25,7 @@ class CosTest {
             double expected = Math.cos(x);
             double actual = cos.calculateCos(x, accuracy);
 
-            assertEquals(expected, actual, eps, "Ошибка при вычислении cos(" + x + ")");
+            assertEquals(expected, actual, eps);
 
         }
         csvExporter.testAndExportCsv(0, 2*Math.PI, 0.1,"cos_result.csv", eps);

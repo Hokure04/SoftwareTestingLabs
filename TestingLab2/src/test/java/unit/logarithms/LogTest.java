@@ -17,9 +17,9 @@ class LogTest {
     private static Log log3;
     double eps = 1e-8;
     double accuracy = 1e-10;
-    private CsvExporter csvLog2Exporter = new CsvExporter(log2::calculateLog);
-    private CsvExporter csvLog3Exporter = new CsvExporter(log3::calculateLog);
-    private CsvExporter csvLog10Exporter = new CsvExporter(log10::calculateLog);
+    private final CsvExporter csvLog2Exporter = new CsvExporter(log2::calculateLog);
+    private final CsvExporter csvLog3Exporter = new CsvExporter(log3::calculateLog);
+    private final CsvExporter csvLog10Exporter = new CsvExporter(log10::calculateLog);
 
     @BeforeAll
     public static void initializeLogarithms(){
@@ -34,15 +34,15 @@ class LogTest {
         for(double x = 0.1; x <= 10.0; x += 0.1){
             double expectedLog2 = Math.log(x)/Math.log(2);
             double actualLog2 = log2.calculateLog(x, accuracy);
-            assertEquals(expectedLog2, actualLog2, eps, "Ошибка при вычислении log2(" + x + ")");
+            assertEquals(expectedLog2, actualLog2, eps);
 
             double expectedLog3 = Math.log(x)/Math.log(3);
             double actualLog3 = log3.calculateLog(x, accuracy);
-            assertEquals(expectedLog3, actualLog3, eps, "Ошибка при вычислении log3(" + x + ")");
+            assertEquals(expectedLog3, actualLog3, eps);
 
             double expectedLog10 = Math.log10(x);
             double actualLog10 = log10.calculateLog(x, accuracy);
-            assertEquals(expectedLog10, actualLog10, eps, "Ошибка при вычислении log10(" + x + ")");
+            assertEquals(expectedLog10, actualLog10, eps);
         }
 
         csvLog2Exporter.testAndExportCsv(0.1, 10.0, 0.1, "log2_result.csv", eps);

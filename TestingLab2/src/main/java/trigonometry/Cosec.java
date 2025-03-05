@@ -1,7 +1,7 @@
 package trigonometry;
 
 public class Cosec{
-    private Sin sin;
+    private final Sin sin;
 
     public Cosec(Sin sin){
         this.sin = sin;

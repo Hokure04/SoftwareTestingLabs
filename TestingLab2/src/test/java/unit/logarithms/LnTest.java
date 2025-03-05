@@ -11,8 +11,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class LnTest {
     double eps = 1e-8;
     double accuracy = 1e-10;
-    private Ln ln = new Ln();
-    private CsvExporter csvExporter = new CsvExporter(ln::calculateLn);
+    private final Ln ln = new Ln();
+    private final CsvExporter csvExporter = new CsvExporter(ln::calculateLn);
 
     @Test
     public void testAndSaveLnResults() {
@@ -20,7 +20,7 @@ class LnTest {
             double expected = Math.log(x);
             double actual = ln.calculateLn(x, accuracy);
 
-            assertEquals(expected, actual, eps, "Ошибка при вычислении ln(" + x + ")");
+            assertEquals(expected, actual, eps);
 
         }
         csvExporter.testAndExportCsv(0.1, 10.0, 0.1, "ln_result.csv", eps);

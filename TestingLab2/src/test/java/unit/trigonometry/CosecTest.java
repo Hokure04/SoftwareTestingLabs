@@ -12,9 +12,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class CosecTest {
     double eps = 1e-8;
     double accuracy = 1e-10;
-    private Sin sin = new Sin();
-    private Cosec cosec = new Cosec(sin);
-    private CsvExporter csvExporter = new CsvExporter(cosec::calculateCosec);
+    private final Sin sin = new Sin();
+    private final Cosec cosec = new Cosec(sin);
+    private final CsvExporter csvExporter = new CsvExporter(cosec::calculateCosec);
 
     @Test
     public void testAndSaveCosecResults(){
@@ -22,7 +22,7 @@ class CosecTest {
             double expected = 1/Math.sin(x);
             double actual = cosec.calculateCosec(x, accuracy);
 
-            assertEquals(expected, actual, eps, "Ошибка при вычислении cos(" + x + ")");
+            assertEquals(expected, actual, eps);
 
         }
         csvExporter.testAndExportCsv(0.1,2*Math.PI,0.1,"cosec_results.csv", eps);

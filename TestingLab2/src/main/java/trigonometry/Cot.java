@@ -1,8 +1,8 @@
 package trigonometry;
 
 public class Cot{
-    private Sin sin;
-    private Cos cos;
+    private final Sin sin;
+    private final Cos cos;
 
     public Cot(Sin sin, Cos cos){
         this.sin = sin;

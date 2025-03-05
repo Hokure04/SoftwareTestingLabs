@@ -13,10 +13,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TanTest {
     double accuracy = 1e-10;
     double eps = 1e-8;
-    private Sin sin = new Sin();
-    private Cos cos = new Cos(sin);
-    private Tan tan = new Tan(sin, cos);
-    private CsvExporter csvExporter = new CsvExporter(tan::calculateTan);
+    private final Sin sin = new Sin();
+    private final Cos cos = new Cos(sin);
+    private final Tan tan = new Tan(sin, cos);
+    private final CsvExporter csvExporter = new CsvExporter(tan::calculateTan);
 
     @Test
     public void testAndSaveTanResults(){
@@ -24,7 +24,7 @@ class TanTest {
             double expected = Math.tan(x);
             double actual = tan.calculateTan(x, accuracy);
 
-            assertEquals(expected, actual, eps, "Ошибка при вычислении cos(" + x + ")");
+            assertEquals(expected, actual, eps);
 
         }
         csvExporter.testAndExportCsv( 0.0, 2*Math.PI, 0.1, "tan_results.csv", eps);

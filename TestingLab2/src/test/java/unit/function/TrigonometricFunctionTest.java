@@ -15,7 +15,7 @@ class TrigonometricFunctionTest {
     private final Cosec cosec = new Cosec(sin);
     private final TrigonometricFunction trigonometricFunc = new TrigonometricFunction(cos, tan, cot, cosec);
     private final double eps = 1e-3;
-    private final double accuracy = 1e-8;
+    double accuracy = 1e-8;
     private final CsvExporter csvExporter = new CsvExporter(trigonometricFunc::calculateTrgFunc);
 
     @Test

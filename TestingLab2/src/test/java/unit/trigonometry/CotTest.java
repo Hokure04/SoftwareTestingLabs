@@ -8,18 +8,15 @@ import trigonometry.Cos;
 import trigonometry.Cot;
 import trigonometry.Sin;
 
-import java.io.File;
-import java.nio.file.Paths;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CotTest {
     double accuracy = 1e-10;
     double eps = 1e-8;
-    private Sin sin = new Sin();
-    private Cos cos = new Cos(sin);
-    private Cot cot = new Cot(sin, cos);
-    private CsvExporter csvExporter = new CsvExporter(cot::calculateCot);
+    private final Sin sin = new Sin();
+    private final Cos cos = new Cos(sin);
+    private final Cot cot = new Cot(sin, cos);
+    private final CsvExporter csvExporter = new CsvExporter(cot::calculateCot);
 
 
     @Test
@@ -28,7 +25,7 @@ class CotTest {
             double expected = Math.cos(x)/Math.sin(x);
             double actual = cot.calculateCot(x, accuracy);
 
-            assertEquals(expected, actual, eps, "Ошибка при вычислении cos(" + x + ")");
+            assertEquals(expected, actual, eps);
 
         }
         csvExporter.testAndExportCsv(0.1, 2*Math.PI,0.1, "cot_result.csv", eps);

@@ -4,9 +4,9 @@ import logarithms.Ln;
 import logarithms.Log;
 
 public class LogarithmFunction {
-    private Ln ln;
-    private Log log2;
-    private Log log10;
+    private final Ln ln;
+    private final Log log2;
+    private final Log log10;
 
     public LogarithmFunction(Ln ln, Log log2, Log log10){
         this.ln = ln;

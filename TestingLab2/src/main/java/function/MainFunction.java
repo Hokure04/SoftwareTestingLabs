@@ -3,8 +3,8 @@ package function;
 import java.util.function.Function;
 
 public class MainFunction {
-    private LogarithmFunction logarithmFunc;
-    private TrigonometricFunction trigonometricFunc;
+    private final LogarithmFunction logarithmFunc;
+    private final TrigonometricFunction trigonometricFunc;
 
     public MainFunction(LogarithmFunction logarithmFunc, TrigonometricFunction trigonometricFunc){
         this.logarithmFunc = logarithmFunc;

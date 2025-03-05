@@ -13,7 +13,7 @@ class LogarithmFunctionTest {
     private final Log log2 = new Log(ln,2);
     private final Log log10 = new Log(ln, 10);
     private final LogarithmFunction logFunction = new LogarithmFunction(ln , log2, log10);
-    private final double accuracy = 1e-10;
+    double accuracy = 1e-10;
     private final double eps = 1e-5;
     private final CsvExporter csvExporter = new CsvExporter(logFunction::calculateLogFunc);
 
