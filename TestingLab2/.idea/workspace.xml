@@ -6,22 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd41ecae-88b3-44e0-b36b-afa9aad20946" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/LogarithmFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/LogarithmFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/MainFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/MainFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/TrigonometricFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/TrigonometricFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logarithms/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logarithms/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Cos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Cos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Cosec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Cosec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Cot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Cot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Tan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Tan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/function/LogarithmFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/function/LogarithmFunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/function/TrigonometricFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/function/TrigonometricFunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/logarithms/LnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/logarithms/LnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/logarithms/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/logarithms/LogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CosecTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/CotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/trigonometry/TanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/trigonometry/TanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/main_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/main_result.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +36,7 @@
   "keyToString": {
     "Application.LogarithmFunction.executor": "Run",
     "Application.TrigonometricFunction.executor": "Run",
-    "JUnit.CosIntegrationTest.executor": "Run",
+    "JUnit.CosIntegrationTest.executor": "Coverage",
     "JUnit.CosIntegrationTest.testCosMockValues.executor": "Run",
     "JUnit.CosTest.executor": "Coverage",
     "JUnit.CosTest.testAndSaveCosResults.executor": "Run",
@@ -59,12 +44,14 @@
     "JUnit.CosTest.testNegativeValues.executor": "Run",
     "JUnit.CosTest.testPositiveValues.executor": "Run",
     "JUnit.CosTest.testZeroValue.executor": "Run",
+    "JUnit.CosecIntegrationTest.executor": "Coverage",
     "JUnit.CosecIntegrationTest.testCosecMockValues.executor": "Run",
     "JUnit.CosecTest.executor": "Coverage",
     "JUnit.CosecTest.testAndSaveCosecResults.executor": "Run",
     "JUnit.CosecTest.testInvalidValues.executor": "Run",
     "JUnit.CosecTest.testNegativePi.executor": "Run",
     "JUnit.CosecTest.testPiValues.executor": "Run",
+    "JUnit.CotIntegrationTest.executor": "Coverage",
     "JUnit.CotIntegrationTest.testCotMockValues.executor": "Run",
     "JUnit.CotTest (1).executor": "Run",
     "JUnit.CotTest.executor": "Coverage",
@@ -128,6 +115,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -141,7 +129,52 @@
       <recent name="logarithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CotTest.testAndSaveCotResults">
+  <component name="RunManager" selected="JUnit.CotIntegrationTest">
+    <configuration name="CosIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.trigonometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="integration.trigonometry.CosIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CosecIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.trigonometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="integration.trigonometry.CosecIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CotIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.trigonometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="integration.trigonometry" />
+      <option name="MAIN_CLASS_NAME" value="integration.trigonometry.CotIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CotTest.testAndSaveCotResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab2" />
       <extension name="coverage">
@@ -154,52 +187,6 @@
       <option name="MAIN_CLASS_NAME" value="unit.trigonometry.CotTest" />
       <option name="METHOD_NAME" value="testAndSaveCotResults" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainFuncIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="integration.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="integration.function" />
-      <option name="MAIN_CLASS_NAME" value="integration.function.MainFuncIntegrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainFuncIntegrationTest.testMainFunction_Trigonometric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="integration.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="integration.function" />
-      <option name="MAIN_CLASS_NAME" value="integration.function.MainFuncIntegrationTest" />
-      <option name="METHOD_NAME" value="testMainFunction_Trigonometric" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit.function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unit.function" />
-      <option name="MAIN_CLASS_NAME" value="unit.function.MainFunctionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CotIntegrationTest" />
+        <item itemvalue="JUnit.CosIntegrationTest" />
+        <item itemvalue="JUnit.CosecIntegrationTest" />
         <item itemvalue="JUnit.CotTest.testAndSaveCotResults" />
         <item itemvalue="JUnit.MainFunctionTest.testAndSaveTrigFunc" />
-        <item itemvalue="JUnit.MainFunctionTest" />
-        <item itemvalue="JUnit.MainFuncIntegrationTest" />
-        <item itemvalue="JUnit.MainFuncIntegrationTest.testMainFunction_Trigonometric" />
       </list>
     </recent_temporary>
   </component>
@@ -254,12 +241,18 @@
       <workItem from="1741008471324" duration="2078000" />
       <workItem from="1741024218569" duration="31169000" />
       <workItem from="1741115809224" duration="28327000" />
-      <workItem from="1741169663682" duration="2554000" />
+      <workItem from="1741169663682" duration="3163000" />
+      <workItem from="1741174349231" duration="744000" />
+      <workItem from="1741345286787" duration="1790000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingLab2$LogFunctionTest_testPowerLogarithmMethodOn3.ic" NAME="LogFunctionTest.testPowerLogarithmMethodOn3 Coverage Results" MODIFIED="1741000420138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -268,11 +261,17 @@
     <SUITE FILE_PATH="coverage/TestingLab2$LogTest.ic" NAME="LogTest Coverage Results" MODIFIED="1741099195657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>logarithms.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/TestingLab2$CosecIntegrationTest.ic" NAME="CosecIntegrationTest Coverage Results" MODIFIED="1741345706670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>integration.trigonometry.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/TestingLab2$CosecTest.ic" NAME="CosecTest Coverage Results" MODIFIED="1741101593711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>trigonometry.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestingLab2$MainFunctionTest.ic" NAME="MainFunctionTest Coverage Results" MODIFIED="1741171242170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>unit.function.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingLab2$CotIntegrationTest.ic" NAME="CotIntegrationTest Coverage Results" MODIFIED="1741345754651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>integration.trigonometry.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestingLab2$CosTest.ic" NAME="CosTest Coverage Results" MODIFIED="1741098634014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>trigonometry.*</FILTER>
@@ -285,6 +284,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/TestingLab2$LnTest.ic" NAME="LnTest Coverage Results" MODIFIED="1741098439431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>logarithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingLab2$CosIntegrationTest.ic" NAME="CosIntegrationTest Coverage Results" MODIFIED="1741345732852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>integration.trigonometry.*</FILTER>
     </SUITE>
   </component>
 </project>
