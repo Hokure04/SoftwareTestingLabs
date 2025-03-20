@@ -5,30 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495ccf30-6456-4f4a-971e-4ef4ee08ace6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestingLab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestingLab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestingLab2/src/test/resources/main_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../TestingLab2/src/test/resources/main_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AuthorizationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DefaultSuiteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchFromBestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchFromBestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchFromOpenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchFromOpenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchLeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchLeadersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchOnVotingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchOnVotingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchQuestionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="AuthorizationTest.authorizationTest" />
-    </enabled-run-configurations>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -38,35 +39,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.AuthorizationTest.authorizationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AuthorizationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DefaultSuiteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DefaultSuiteTest.first.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchFromBestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchFromBestTest.searchFromBestTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchFromOpenTest.searchFromOpenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchLeadersTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchLeadersTest.searchLeadersTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchOnVotingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchOnVotingTest.searchOnVotingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchQuestionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SearchQuestionTest.searchQuestionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AuthorizationTest.authorizationTest (1).executor": "Run",
+    "JUnit.AuthorizationTest.authorizationTest.executor": "Run",
+    "JUnit.AuthorizationTest.createPollTest.executor": "Run",
+    "JUnit.AuthorizationTest.executor": "Run",
+    "JUnit.AuthorizationTest.logoutTest.executor": "Run",
+    "JUnit.ChooseQuestionTest.chooseQuestionTest.executor": "Debug",
+    "JUnit.ChooseQuestionTest.choseQuestionAndTest.executor": "Run",
+    "JUnit.ChooseQuestionTest.executor": "Run",
+    "JUnit.ClickAllCategoriesTest.clickCategoriesTest.executor": "Run",
+    "JUnit.CreatePollTest.createPollTest.executor": "Debug",
+    "JUnit.CreatePollTest.executor": "Run",
+    "JUnit.CreateQuestionTest.createQuestionTest.executor": "Debug",
+    "JUnit.CreateQuestionTest.executor": "Run",
+    "JUnit.DefaultSuiteTest.executor": "Run",
+    "JUnit.DefaultSuiteTest.first.executor": "Run",
+    "JUnit.FirstTest.executor": "Run",
+    "JUnit.FirstTest.testDrivers.executor": "Run",
+    "JUnit.FirstTest.testMailRuSearch.executor": "Run",
+    "JUnit.LogoutTest.executor": "Run",
+    "JUnit.LogoutTest.logoutTest.executor": "Run",
+    "JUnit.RegisterComapnyTest.registerCompanyTest.executor": "Debug",
+    "JUnit.RegisterCompanyTest.auth.executor": "Run",
+    "JUnit.RegisterCompanyTest.executor": "Run",
+    "JUnit.RegisterCompanyTest.registerCompanyTest.executor": "Debug",
+    "JUnit.SearchFromBestTest.executor": "Run",
+    "JUnit.SearchFromBestTest.searchFromBestTest.executor": "Run",
+    "JUnit.SearchFromOpenTest.searchFromOpenTest.executor": "Debug",
+    "JUnit.SearchLeadersTest.executor": "Run",
+    "JUnit.SearchLeadersTest.searchLeadersTest.executor": "Run",
+    "JUnit.SearchOnVotingTest.executor": "Run",
+    "JUnit.SearchOnVotingTest.searchOnVotingTest.executor": "Debug",
+    "JUnit.SearchQuestionTest.executor": "Run",
+    "JUnit.SearchQuestionTest.searchQuestionTest.executor": "Run",
+    "JUnit.SimpleTest.executeGoToHomePage.executor": "Run",
+    "JUnit.SimpleTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alexander/IdeaProjects/Software-testing/TestingLab3/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.AuthorizationTest.authorizationTest">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AuthorizationTest">
     <configuration name="AuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,38 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorizationTest.authorizationTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="AuthorizationTest.authorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AuthorizationTest" />
-      <option name="METHOD_NAME" value="authorizationTest" />
+      <option name="METHOD_NAME" value="authorizationTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchLeadersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChooseQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchLeadersTest" />
+      <option name="MAIN_CLASS_NAME" value="ChooseQuestionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchOnVotingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChooseQuestionTest.choseQuestionAndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchOnVotingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ChooseQuestionTest" />
+      <option name="METHOD_NAME" value="choseQuestionAndTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchQuestionTest" />
+      <option name="MAIN_CLASS_NAME" value="CreateQuestionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthorizationTest.authorizationTest" />
         <item itemvalue="JUnit.AuthorizationTest" />
-        <item itemvalue="JUnit.SearchQuestionTest" />
-        <item itemvalue="JUnit.SearchOnVotingTest" />
-        <item itemvalue="JUnit.SearchLeadersTest" />
+        <item itemvalue="JUnit.AuthorizationTest.authorizationTest" />
+        <item itemvalue="JUnit.ChooseQuestionTest" />
+        <item itemvalue="JUnit.ChooseQuestionTest.choseQuestionAndTest" />
+        <item itemvalue="JUnit.CreateQuestionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,11 +177,57 @@
       <workItem from="1741787794431" duration="8548000" />
       <workItem from="1741809870492" duration="11750000" />
       <workItem from="1741827113768" duration="1064000" />
-      <workItem from="1741828384908" duration="633000" />
+      <workItem from="1741828384908" duration="4700000" />
+      <workItem from="1741943437985" duration="7810000" />
+      <workItem from="1741971075153" duration="2704000" />
+      <workItem from="1741975394620" duration="1199000" />
+      <workItem from="1741977189993" duration="3202000" />
+      <workItem from="1742193942287" duration="19855000" />
+      <workItem from="1742217239639" duration="1394000" />
+      <workItem from="1742293917592" duration="3825000" />
+      <workItem from="1742300972382" duration="18593000" />
+      <workItem from="1742396242148" duration="6216000" />
+      <workItem from="1742413357748" duration="17628000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/LeadersPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/LeadersPage.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/QuestionPage.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/AskPage.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/AskPage.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

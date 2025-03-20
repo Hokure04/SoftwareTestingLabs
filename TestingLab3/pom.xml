@@ -10,7 +10,7 @@
   <url>http://maven.apache.org</url>
 
   <dependencies>
-    <!-- JUnit 5 для тестирования -->
+    <!-- JUnit 5 -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -24,18 +24,31 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Selenium WebDriver (актуальная версия) -->
+    <!-- Selenium WebDriver -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.17.0</version> <!-- Последняя версия Selenium -->
+      <version>4.17.0</version>
     </dependency>
 
-    <!-- WebDriver для Chrome (актуальная версия) -->
+    <!-- WebDriver для Chrome -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-chrome-driver</artifactId>
-      <version>4.17.0</version> <!-- Это важно для работы с Chrome -->
+      <version>4.17.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-firefox-driver</artifactId>
+      <version>4.16.1</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.fluentlenium</groupId>
+      <artifactId>fluentlenium-junit-jupiter</artifactId>
+      <version>5.0.3</version>
     </dependency>
 
     <!-- WebDriverManager для управления версиями браузера -->
@@ -45,17 +58,12 @@
       <version>5.6.3</version>
     </dependency>
 
+
     <!-- Hamcrest для утверждений -->
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest</artifactId>
       <version>2.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.11.4</version>
-      <scope>compile</scope>
     </dependency>
 
     <dependency>
@@ -69,6 +77,12 @@
       <artifactId>slf4j-simple</artifactId>
       <version>2.0.0-alpha1</version>
     </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-api</artifactId>
+          <version>5.11.4</version>
+          <scope>compile</scope>
+      </dependency>
   </dependencies>
 
   <build>
