@@ -10,6 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AskPage;
 import pages.HomePage;
 
+import java.util.List;
+import java.util.NoSuchElementException;
+
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CreatePollTest {
   private static Utils utils;
@@ -38,11 +41,28 @@ public class CreatePollTest {
     }
   }
 
+  public void switchToFrameWithLocator(By element) {
+    List<WebElement> frames = driver.findElements(By.tagName("iframe"));
+    for (WebElement frame : frames) {
+      driver.switchTo().frame(frame);
+      List<WebElement> elements = driver.findElements(element);
+
+      if (!elements.isEmpty()) {
+        System.out.println("Нужный frame найден!");
+        return;
+      }
+      driver.switchTo().defaultContent();
+    }
+    throw new NoSuchElementException("Frame с элементом не найден!");
+  }
+
   @Test
   @Order(1)
   public void authUser(){
     homePage.clickEnterButton();
-    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
+//    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
+    By mailDropDown = By.xpath("//input[@name='username']");
+    switchToFrameWithLocator(mailDropDown);
     homePage.enterLoginAndChooseMailType("test_sftware_lab3");
     homePage.enterNumbersAndCode("7", "9");
     WebElement codeField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='Code']")));

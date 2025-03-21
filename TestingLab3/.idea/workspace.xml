@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495ccf30-6456-4f4a-971e-4ef4ee08ace6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AuthorizationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AuthorizationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DefaultSuiteTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchFromBestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchFromBestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchFromOpenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchFromOpenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchLeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchLeadersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchOnVotingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchOnVotingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchQuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChooseQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChooseQuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreatePollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreatePollTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateQuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterCompanyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterCompanyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,57 +36,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AuthorizationTest.authorizationTest (1).executor": "Run",
-    "JUnit.AuthorizationTest.authorizationTest.executor": "Run",
-    "JUnit.AuthorizationTest.createPollTest.executor": "Run",
-    "JUnit.AuthorizationTest.executor": "Run",
-    "JUnit.AuthorizationTest.logoutTest.executor": "Run",
-    "JUnit.ChooseQuestionTest.chooseQuestionTest.executor": "Debug",
-    "JUnit.ChooseQuestionTest.choseQuestionAndTest.executor": "Run",
-    "JUnit.ChooseQuestionTest.executor": "Run",
-    "JUnit.ClickAllCategoriesTest.clickCategoriesTest.executor": "Run",
-    "JUnit.CreatePollTest.createPollTest.executor": "Debug",
-    "JUnit.CreatePollTest.executor": "Run",
-    "JUnit.CreateQuestionTest.createQuestionTest.executor": "Debug",
-    "JUnit.CreateQuestionTest.executor": "Run",
-    "JUnit.DefaultSuiteTest.executor": "Run",
-    "JUnit.DefaultSuiteTest.first.executor": "Run",
-    "JUnit.FirstTest.executor": "Run",
-    "JUnit.FirstTest.testDrivers.executor": "Run",
-    "JUnit.FirstTest.testMailRuSearch.executor": "Run",
-    "JUnit.LogoutTest.executor": "Run",
-    "JUnit.LogoutTest.logoutTest.executor": "Run",
-    "JUnit.RegisterComapnyTest.registerCompanyTest.executor": "Debug",
-    "JUnit.RegisterCompanyTest.auth.executor": "Run",
-    "JUnit.RegisterCompanyTest.executor": "Run",
-    "JUnit.RegisterCompanyTest.registerCompanyTest.executor": "Debug",
-    "JUnit.SearchFromBestTest.executor": "Run",
-    "JUnit.SearchFromBestTest.searchFromBestTest.executor": "Run",
-    "JUnit.SearchFromOpenTest.searchFromOpenTest.executor": "Debug",
-    "JUnit.SearchLeadersTest.executor": "Run",
-    "JUnit.SearchLeadersTest.searchLeadersTest.executor": "Run",
-    "JUnit.SearchOnVotingTest.executor": "Run",
-    "JUnit.SearchOnVotingTest.searchOnVotingTest.executor": "Debug",
-    "JUnit.SearchQuestionTest.executor": "Run",
-    "JUnit.SearchQuestionTest.searchQuestionTest.executor": "Run",
-    "JUnit.SimpleTest.executeGoToHomePage.executor": "Run",
-    "JUnit.SimpleTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alexander/IdeaProjects/Software-testing/TestingLab3/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AuthorizationTest.authorizationTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationTest.authorizationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationTest.createPollTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationTest.logoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChooseQuestionTest.chooseQuestionTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ChooseQuestionTest.choseQuestionAndTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChooseQuestionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClickAllCategoriesTest.clickCategoriesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClickAllCategoriesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreatePollTest.createPollTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreatePollTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateQuestionTest.createQuestionTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CreateQuestionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DefaultSuiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DefaultSuiteTest.first.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTest.testDrivers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTest.testMailRuSearch.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTestTest.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogoutTest.logoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterComapnyTest.registerCompanyTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RegisterCompanyTest.auth.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterCompanyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterCompanyTest.registerCompanyTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SearchFromBestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchFromBestTest.searchFromBestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchFromOpenTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchFromOpenTest.searchFromOpenTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SearchLeadersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchLeadersTest.searchLeadersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchOnVotingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchOnVotingTest.searchOnVotingTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SearchQuestionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchQuestionTest.searchQuestionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTest.executeGoToHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexander/IdeaProjects/Software-testing/TestingLab3/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -98,49 +99,47 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthorizationTest">
-    <configuration name="AuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SearchQuestionTest">
+    <configuration name="SearchFromBestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthorizationTest" />
+      <option name="MAIN_CLASS_NAME" value="SearchFromBestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorizationTest.authorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFromOpenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthorizationTest" />
-      <option name="METHOD_NAME" value="authorizationTest(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChooseQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingLab3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChooseQuestionTest" />
+      <option name="MAIN_CLASS_NAME" value="SearchFromOpenTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChooseQuestionTest.choseQuestionAndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchLeadersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChooseQuestionTest" />
-      <option name="METHOD_NAME" value="choseQuestionAndTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="SearchLeadersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchOnVotingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingLab3" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateQuestionTest" />
+      <option name="MAIN_CLASS_NAME" value="SearchOnVotingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingLab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchQuestionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthorizationTest" />
-        <item itemvalue="JUnit.AuthorizationTest.authorizationTest" />
-        <item itemvalue="JUnit.ChooseQuestionTest" />
-        <item itemvalue="JUnit.ChooseQuestionTest.choseQuestionAndTest" />
-        <item itemvalue="JUnit.CreateQuestionTest" />
+        <item itemvalue="JUnit.SearchQuestionTest" />
+        <item itemvalue="JUnit.SearchLeadersTest" />
+        <item itemvalue="JUnit.SearchOnVotingTest" />
+        <item itemvalue="JUnit.SearchFromOpenTest" />
+        <item itemvalue="JUnit.SearchFromBestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,9 @@
       <workItem from="1742293917592" duration="3825000" />
       <workItem from="1742300972382" duration="18593000" />
       <workItem from="1742396242148" duration="6216000" />
-      <workItem from="1742413357748" duration="17628000" />
+      <workItem from="1742413357748" duration="25772000" />
+      <workItem from="1742519710762" duration="3866000" />
+      <workItem from="1742554053027" duration="1424000" />
     </task>
     <servers />
   </component>
